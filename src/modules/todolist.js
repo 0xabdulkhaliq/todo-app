@@ -103,7 +103,7 @@ function createTodo(todoItem, isCompleted) {
     todoListItem.innerHTML = `
                 <input id="item${todoItemIndex}" type="checkbox" class="item__checker">
                 <label for="item${todoItemIndex}">${todoItem}</label>
-                <button class="item__remove"></button>
+                <button class="item__remove" aria-label="Click to clear this todo"></button>
                 `
     // todoListItem.draggable = 'true'
     
